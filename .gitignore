@@ -1,0 +1,21 @@
+# Downloaded APKs
+apks/
+
+# Decompiled sources (too large for git)
+sources/
+
+# Search index
+index.db
+
+# Tool binaries
+tools/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.iml
