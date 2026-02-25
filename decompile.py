@@ -331,6 +331,11 @@ def decompile_apk(apk_path, package, threads):
         "--threads-count", str(threads),
         "--output-dir", str(output_dir),
         "--log-level", "error",
+        "--deobf",
+        "--deobf-use-sourcename",
+        "--deobf-parse-kotlin-metadata",
+        "--deobf-min", "3",
+        "--deobf-res",
         str(apk_path),
     ]
     print(f"    Decompiling with jadx ({threads} threads)...")
