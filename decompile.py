@@ -333,7 +333,6 @@ def decompile_apk(apk_path, package, threads):
         "--log-level", "error",
         "--deobf",
         "--deobf-use-sourcename",
-        "--deobf-parse-kotlin-metadata",
         "--deobf-min", "3",
         "--deobf-res",
         str(apk_path),
