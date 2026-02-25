@@ -334,7 +334,6 @@ def decompile_apk(apk_path, package, threads):
         "--deobf",
         "--deobf-use-sourcename",
         "--deobf-min", "3",
-        "--deobf-res",
         str(apk_path),
     ]
     print(f"    Decompiling with jadx ({threads} threads)...")
